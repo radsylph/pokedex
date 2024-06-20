@@ -1,0 +1,332 @@
+.img {
+  background-image: url("./images/background.png");
+  background-size: cover;
+}
+
+.budy {
+  color: black;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+}
+
+.sprite {
+  width: auto;
+  height: 110px;
+  border: none;
+}
+
+.sprite:hover {
+  animation-name: stretch;
+  animation-duration: 1.5s;
+}
+#nombre1 {
+  font-size: large;
+}
+.pokedex-frame {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+  background-color: #fb0d3e;
+  padding-bottom: 20%;
+  border-radius: 5px;
+}
+.pokedex-frame.s {
+  margin-top: 158px;
+  border: 20px solid transparent;
+  border-right: 2px solid black;
+  border-top: 20px solid black;
+  border-bottom: 2px solid black;
+  border-bottom-right-radius: 50px;
+}
+.botones {
+  width: 40%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btnl,
+.btnr {
+  width: 22px;
+  height: 26px;
+  background-color: #000850;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: content-box;
+}
+
+.btnc {
+  width: 25px;
+  height: 65px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #000850;
+}
+
+.trl {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 8.5px 10px 8.5px 0;
+  border-color: transparent #172b5b transparent transparent;
+}
+
+.trr {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 8.5px 0 8.5px 10px;
+  border-color: transparent transparent transparent #172b5b;
+}
+
+.tru2 {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 8.5px 10px 8.5px;
+  border-color: transparent transparent #172b5b transparent;
+}
+.trd {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 8.5px 0 8.5px;
+  border-color: #172b5b transparent transparent transparent;
+}
+
+.pokedex-screen {
+  margin: 10px;
+  padding: 4px;
+  position: relative;
+  float: center;
+  border: 2px solid black;
+  background-color: rgba(175, 170, 169, 1);
+  border-radius: 10px;
+}
+
+.a3 {
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid black;
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9938babd-3a6f-476d-81a9-fdfadc2bf5ff/d6zj43i-988ad0d0-32f4-4484-91e2-a6fafb38658d.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzk5MzhiYWJkLTNhNmYtNDc2ZC04MWE5LWZkZmFkYzJiZjVmZlwvZDZ6ajQzaS05ODhhZDBkMC0zMmY0LTQ0ODQtOTFlMi1hNmZhZmIzODY1OGQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.0TgtULG5Z79lftb-lHbkdvntzSbw0pr5vQjr89wBZxM");
+}
+
+.bsprite {
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9938babd-3a6f-476d-81a9-fdfadc2bf5ff/d6zj43i-988ad0d0-32f4-4484-91e2-a6fafb38658d.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzk5MzhiYWJkLTNhNmYtNDc2ZC04MWE5LWZkZmFkYzJiZjVmZlwvZDZ6ajQzaS05ODhhZDBkMC0zMmY0LTQ0ODQtOTFlMi1hNmZhZmIzODY1OGQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.0TgtULG5Z79lftb-lHbkdvntzSbw0pr5vQjr89wBZxM");
+  flex-direction: row;
+  position: relative;
+  border: 2px solid black;
+}
+
+.centro {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+}
+
+.type {
+  padding: 3px;
+  margin: 5px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.tipos {
+  padding: 3px;
+  margin: 5px;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.pokeball {
+  background: linear-gradient(
+    0deg,
+    #fff 0%,
+    #fff 50%,
+    #fb0d3e 50%,
+    #fb0d3e 100%
+  );
+  border-radius: 50%;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border: 2px solid black;
+  box-shadow: 2px 2px 5px;
+}
+.boton {
+  border-radius: 50%;
+  height: 15px;
+  width: auto;
+  border: 1px solid black;
+  margin: 22.5px;
+  transition: color 0.1s;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background-color: red;
+}
+
+#nombre {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 2px solid black;
+  text-align: center;
+  box-shadow: 2px 2px 5px;
+}
+
+.box {
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+}
+
+.normal {
+  background-color: beige;
+  color: black;
+}
+
+.fire {
+  background-color: orange;
+  color: white;
+}
+
+.grass {
+  background-color: green;
+  color: white;
+}
+
+.water {
+  background-color: blue;
+  color: white;
+}
+
+.ice {
+  background-color: lightblue;
+  color: black;
+}
+
+.electric {
+  background-color: gold;
+  color: black;
+}
+
+.fighting {
+  background-color: darkred;
+  color: white;
+}
+
+.flying {
+  background-color: skyblue;
+  color: black;
+}
+
+.bug {
+  background-color: yellowgreen;
+  color: white;
+}
+
+.ghost {
+  background-color: purple;
+  color: white;
+}
+
+.rock {
+  background-color: sienna;
+  color: white;
+}
+
+.ground {
+  background-color: burlywood;
+  color: black;
+}
+
+.steel {
+  background-color: silver;
+  color: black;
+}
+
+.dark {
+  background-color: darkgray;
+  color: white;
+}
+
+.psychic {
+  background-color: palevioletred;
+  color: white;
+}
+
+.fairy {
+  background-color: pink;
+  color: black;
+}
+
+.dragon {
+  background-color: teal;
+  color: white;
+}
+
+.poison {
+  background-color: darkviolet;
+  color: white;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(0, 0) rotate(0);
+  }
+  20% {
+    transform: translate(-10px, 0) rotate(-20deg);
+  }
+  30% {
+    transform: translate(10px, 0) rotate(20deg);
+  }
+  50% {
+    transform: translate(-10px, 0) rotate(-10deg);
+  }
+  60% {
+    transform: translate(10px, 0) rotate(10deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(0);
+  }
+}
+
+@keyframes nose {
+  0% {
+  }
+  100% {
+  }
+}
+
+@keyframes stretch {
+  0% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.prueba {
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9938babd-3a6f-476d-81a9-fdfadc2bf5ff/d6zj43i-988ad0d0-32f4-4484-91e2-a6fafb38658d.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzk5MzhiYWJkLTNhNmYtNDc2ZC04MWE5LWZkZmFkYzJiZjVmZlwvZDZ6ajQzaS05ODhhZDBkMC0zMmY0LTQ0ODQtOTFlMi1hNmZhZmIzODY1OGQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.0TgtULG5Z79lftb-lHbkdvntzSbw0pr5vQjr89wBZxM");
+  border-radius: 5px;
+  border: 2px solid black;
+  background-color: grey;
+}
+
+.a3 > p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15;
+}
